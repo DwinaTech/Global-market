@@ -1,0 +1,20 @@
+{
+  "name": "global-market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start --prefix Server",
+    "build": "npm run build --prefix Client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DwinaTech/Global-market.git"
+  },
+  "author": "Mohammed Dwina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DwinaTech/Global-market/issues"
+  },
+  "homepage": "https://github.com/DwinaTech/Global-market#readme"
+}

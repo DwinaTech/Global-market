@@ -1,0 +1,23 @@
+{
+  "name": "global-market-api",
+  "version": "1.0.0",
+  "description": "Global market server side",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "recreate-db:prod": "NODE_ENV=production node ./db/seed-db.js",
+    "recreate-db:local": "node ./db/seed-db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "pg": "^7.12.1"
+  }
+}
